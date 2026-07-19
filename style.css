@@ -1,0 +1,24 @@
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.portfolio-grid{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-grid .portfolio-item{
+    background-color: rgb(219, 255, 173);
+    padding: 50px;
+}
+
+#position-testing {
+    background-color: red;
+    position: absolute;
+    top: 0;
+}
