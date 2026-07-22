@@ -1,0 +1,12 @@
+  // $name = "Hussain";
+    // $age = 234;
+
+    // $num = 45;
+    // $num = 5;
+
+
+    // if( $num > 10){
+        // echo " Num is greater than 10";
+    // } else {
+        // echo " Num is NOT greater than 10";
+    // }

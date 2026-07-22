@@ -1,0 +1,25 @@
+<?php 
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST')
+{
+    echo "Welcome " . $_POST['your_name'];
+
+}
+
+
+?> <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Handling </title>
+</head>
+<body>
+    
+
+<form action="" method="post">
+
+Your Name: <input type="text" name="your_name" id="">
+<input type="Submit">
+</body>
+</html>
