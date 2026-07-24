@@ -1,0 +1,10 @@
+<?php
+
+session_start();
+
+$_SESSION['username_new'] = 'hussain_secure';
+
+
+// setcookie('username', 'hussaintest', time()+60*60);
+
+// echo $_COOKIE['username'];
